@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+  <Identification>
+    <Version>01</Version>
+    <CanonicalUri>tela-web:codelist:iso:3166-2:us</CanonicalUri>
+    <ShortName>US_States</ShortName>
+    <LongName xml:lang="en">US States</LongName>
+    <LongName Identifier="listID">ISO 3166-2 US</LongName>
+    <CanonicalVersionUri>tela-web:codelist:iso:3166-2:us:01</CanonicalVersionUri>
+    <LocationUri>http://gc.tela-web.com/US_States-01.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="Code" Use="required">
+      <Data Type="string" />
+      <ShortName>Code</ShortName>
+    </Column>
+    <Column Id="Name" Use="required">
+      <Data Type="string" Lang="en" />
+      <ShortName>Name</ShortName>
+    </Column>
+    <Key Id="Key">
+      <ColumnRef Ref="Code" />
+      <ShortName>Code</ShortName>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-AL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Alabama</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-AK</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Alaska</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-AZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Arizona</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-AR</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Arkansas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-CA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>California</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-CO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Colorado</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-CT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Connecticut</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-DE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Delaware</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-DC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>District of Columbia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-FL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Florida</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-GA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Georgia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-HI</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Hawaii</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-ID</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Idaho</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-IL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Illinois</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-IN</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Indiana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-IA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Iowa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-KS</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Kansa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-KY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Kentucky</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-LA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Lousiana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-ME</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Maine</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-MD</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Maryland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-MA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Massachusetts</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-MI</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Michigan</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-MN</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Minnesota</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-MS</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Mississippi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-MO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Missouri</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-MT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Montana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-NE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Nebraska</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-NV</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Nevada</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-NH</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>New Hampshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-NJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>New Jersey</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-NM</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>New Mexico</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-NY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>New York</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-NC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>North Carolina</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-ND</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>North Dakota</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-OH</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Ohio</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-OK</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Oklahoma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-OR</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Oregon</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-PA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Pennsylvania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-RI</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Rhode Island</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-SC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>South Carolina</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-SD</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>South Dakota</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-TN</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Tennessee</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-TX</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Texas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-UT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Utah</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-VT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Vermont</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-VA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Virginia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-WA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Washington</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-WV</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>West Virginia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-WI</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Wisconsin</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>US-WY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Wyoming</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</CodeList>

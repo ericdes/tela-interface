@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+  <Identification>
+    <Version>01</Version>
+    <CanonicalUri>tela-web:codelist:iso:3166-2:ca</CanonicalUri>
+    <ShortName>CA_Provinces</ShortName>
+    <LongName xml:lang="en">CA Provinces</LongName>
+    <LongName Identifier="listID">ISO 3166-2 CA</LongName>
+    <CanonicalVersionUri>tela-web:codelist:iso:3166-2:ca:01</CanonicalVersionUri>
+    <LocationUri>http://gc.tela-web.com/CA_Provinces-01.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="Code" Use="required">
+      <Data Type="string" />
+      <ShortName>Code</ShortName>
+    </Column>
+    <Column Id="Name" Use="required">
+      <Data Type="string" Lang="en" />
+      <ShortName>Name</ShortName>
+    </Column>
+    <Key Id="Key">
+      <ColumnRef Ref="Code" />
+      <ShortName>Code</ShortName>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-AB</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Alberta</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-BC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>British Columbia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-MB</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Manitoba</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-NB</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>New Brunswick</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-NL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Newfoundland and Labrador</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-NS</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Nova Scotia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-ON</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Ontario</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-PE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Prince Edward Island</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-QC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Quebec</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-SK</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Saskatchewan</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-NT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Northwest Territories</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-NU</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Nunavut</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CA-YT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Yukon</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</CodeList>

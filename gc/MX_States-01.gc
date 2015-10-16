@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+  <Identification>
+    <Version>01</Version>
+    <CanonicalUri>tela-web:codelist:iso:3166-2:mx</CanonicalUri>
+    <ShortName>MX_States</ShortName>
+    <LongName xml:lang="en">MX States</LongName>
+    <LongName Identifier="listID">ISO 3166-2 MX</LongName>
+    <CanonicalVersionUri>tela-web:codelist:iso:3166-2:mx:01</CanonicalVersionUri>
+    <LocationUri>http://gc.tela-web.com/MX_States-01.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="Code" Use="required">
+      <Data Type="string" />
+      <ShortName>Code</ShortName>
+    </Column>
+    <Column Id="Name" Use="required">
+      <Data Type="string" Lang="es" />
+      <ShortName>Name</ShortName>
+    </Column>
+    <Key Id="Key">
+      <ColumnRef Ref="Code" />
+      <ShortName>Code</ShortName>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-DIF</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Distrito Federal</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-AGU</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Aguascalientes</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-BCN</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Baja California</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-BCS</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Baja California Sur</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-CAM</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Campeche</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-COA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Coahuila</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-COL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Colima</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-CHP</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Chiapas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-CHH</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Chihuahua</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-DUR</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Durango</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-GUA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Guanajuato</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-GRO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Guerrero</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-HID</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Hidalgo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-JAL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Jalisco</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-MEX</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>México</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-MIC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Michoacán</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-MOR</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Morelos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-NAY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Nayarit</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-NLE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Nuevo León</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-OAX</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Oaxaca</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-PUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Puebla</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-QUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Querétaro</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-ROO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Quintana Roo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-SLP</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>San Luis Potosí</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-SIN</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Sinaloa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-SON</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Sonora</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-TAB</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Tabasco</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-TAM</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Tamaulipas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-TLA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Tlaxcala</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-VER</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Veracruz</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-YUC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Yucatán</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>MX-ZAC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Zacatecas</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</CodeList>
