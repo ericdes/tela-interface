@@ -7,7 +7,7 @@
     <LongName xml:lang="en">Country</LongName>
     <LongName Identifier="listID">ISO 3166-1 - Alpha-2</LongName>
     <CanonicalVersionUri>tela-web:codelist:iso:3166-1:alpha-2:01</CanonicalVersionUri>
-    <LocationUri>http://gc.tela-web.com/CountryCode-01.gc</LocationUri>
+    <LocationUri>https://raw.githubusercontent.com/ericdes/tela-interface/master/gc/CountryCode-01.gc</LocationUri>
   </Identification>
   <ColumnSet>
     <Column Id="Alpha2Code" Use="required">

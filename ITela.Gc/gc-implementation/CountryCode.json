@@ -1,0 +1,65 @@
+{
+  "Metadata": {
+    "$type": "Tela.Erp.Core.GcMetadata, Tela.Erp.Core",
+    "GenericodeVersion": "1.0",
+    "Code": "gc",
+    "Name": "CountryCode",
+    "Version": "01",
+    "Information": {
+      "LocationUri": "https://raw.githubusercontent.com/ericdes/tela-interface/master/gc/CountryCode-01.gc",
+      "IsRestriction": false,
+      "Filename": "CountryCode-01.gc",
+      "TypeId": "Tela.Erp.Interfaces.Annotations.GcMetadataAttribute, Tela.Erp.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  },
+  "EnumName": "Country",
+  "JsonFilename": null,
+  "Namespace": "ITela.Gc",
+  "CodeField": "Alpha2Code",
+  "ValueField": "Name",
+  "EnumFieldList": {},
+  "GcFieldsAnalyzed": {
+    "Alpha2Code": {
+      "$type": "Tela.Erp.Core.GcFieldDataSummary, Tela.Erp.Core",
+      "ColumnRef": "Alpha2Code",
+      "MinLength": 2,
+      "MaxLength": 2,
+      "AreNumeric": false,
+      "AreIntegers": false,
+      "EmptyRowsCount": 0,
+      "Weight": 468
+    },
+    "Name": {
+      "$type": "Tela.Erp.Core.GcFieldDataSummary, Tela.Erp.Core",
+      "ColumnRef": "Name",
+      "MinLength": 4,
+      "MaxLength": 44,
+      "AreNumeric": false,
+      "AreIntegers": false,
+      "EmptyRowsCount": 0,
+      "Weight": 2598
+    }
+  },
+  "FieldsImplemented": {
+    "Alpha2Code": {
+      "GcColumnRef": "Alpha2Code",
+      "DataType": "string",
+      "Min": 2,
+      "Max": 2,
+      "EnumPosition": [
+        "Code"
+      ],
+      "TypeId": "Tela.Erp.Interfaces.Annotations.GcEnumFieldAttribute, Tela.Erp.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "Name": {
+      "GcColumnRef": "Name",
+      "DataType": "string",
+      "Min": 1,
+      "Max": 50,
+      "EnumPosition": [
+        "Value"
+      ],
+      "TypeId": "Tela.Erp.Interfaces.Annotations.GcEnumFieldAttribute, Tela.Erp.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
