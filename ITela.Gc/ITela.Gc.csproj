@@ -57,10 +57,14 @@
     <Compile Include="Annotations\GcField.cs" />
     <Compile Include="Annotations\GcFieldValue.cs" />
     <Compile Include="Annotations\GcMetadata.cs" />
+    <Compile Include="Collections\ICodeValueCollection.cs" />
+    <Compile Include="Collections\IGcCodeValueCollection.cs" />
+    <Compile Include="Collections\IGcMetadata.cs" />
+    <Compile Include="Datatypes\ICodeValue.cs" />
+    <Compile Include="Datatypes\IStringValueType.cs" />
     <Compile Include="GcData\Country.cs" />
     <Compile Include="GcData\PackagingType.cs" />
     <Compile Include="Enums\GcEnumPart.cs" />
-    <Compile Include="Enums\UseStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
