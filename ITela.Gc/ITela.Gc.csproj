@@ -57,9 +57,15 @@
     <Compile Include="Annotations\GcField.cs" />
     <Compile Include="Annotations\GcFieldValue.cs" />
     <Compile Include="Annotations\GcMetadata.cs" />
+    <Compile Include="Annotations\Helpers\AnnotationReader.cs" />
+    <Compile Include="Annotations\Helpers\AttributeUsageAnnotationReader.cs" />
+    <Compile Include="Annotations\Helpers\GcCodeValueAnnotationReader.cs" />
+    <Compile Include="Collections\CodeValueCollection.cs" />
     <Compile Include="Collections\ICodeValueCollection.cs" />
     <Compile Include="Collections\IGcCodeValueCollection.cs" />
     <Compile Include="Collections\IGcMetadata.cs" />
+    <Compile Include="Datatypes\CodeValue.cs" />
+    <Compile Include="Datatypes\EnumCodeValue.cs" />
     <Compile Include="Datatypes\ICodeValue.cs" />
     <Compile Include="Datatypes\IStringValueType.cs" />
     <Compile Include="GcData\Country.cs" />
