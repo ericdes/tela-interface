@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITela.Gc
+namespace ITela.Gc.Data
 {
     using System;
     using System.Collections.Generic;

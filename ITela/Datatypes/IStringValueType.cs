@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace ITela.Gc
+namespace ITela
 {
     /// <summary>
     /// Represents a string value.

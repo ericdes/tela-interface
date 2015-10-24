@@ -57,9 +57,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ITela.Gc\ITela.Gc.csproj">
+    <ProjectReference Include="..\ITela.Gc.Data\ITela.Gc.Data.csproj">
+      <Project>{201a53d6-af17-4625-af20-2b929c41ffc2}</Project>
+      <Name>ITela.Gc.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITela.Gc\ITela.csproj">
       <Project>{b94951bc-362d-4f5c-aa4b-a9f1fc2bfc91}</Project>
-      <Name>ITela.Gc</Name>
+      <Name>ITela</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

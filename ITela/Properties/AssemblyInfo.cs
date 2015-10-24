@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ITela.Gc")]
+[assembly: AssemblyTitle("ITela")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ITela.Gc")]
+[assembly: AssemblyProduct("ITela")]
 [assembly: AssemblyCopyright("Copyright © 2015 Eric Desgranges")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

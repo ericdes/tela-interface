@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITela.Gc
+namespace ITela
 {
     /// <summary>
     /// A strongly typed code value, to use when populating data from an external source, e.g. a genericode file.

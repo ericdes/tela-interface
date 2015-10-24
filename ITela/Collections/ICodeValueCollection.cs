@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ITela.Gc
+namespace ITela
 {
     /// <summary>
     /// Class to conveniently hold a collection of codes with corresponding values.

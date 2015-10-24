@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ITela.Gc;
 #if DEBUG
 using System.Reflection;
 #endif
 
-namespace ITela.Gc
+namespace ITela
 {
     public class EnumCodeValue<ECODE, TCODE, TVALUE> : CodeValue<TCODE, TVALUE>
         where ECODE: struct
@@ -39,11 +38,12 @@ namespace ITela.Gc
 
         public static EnumCodeValue<ECODE> BuildFrom(ECODE field)
         {
-#if DEBUG
-            if (!(typeof(ECODE).GetTypeInfo().IsEnum)) throw new InvalidOperationException("Expecting E to be an Enum.");
-#endif
-            GcCodeValueAttribute gcAnnotation = GcCodeValueAnnotationReader.GetGcCodeValueAttribute<ECODE>(field);
-            return new EnumCodeValue<ECODE>(field, gcAnnotation.GcCode, gcAnnotation.GcValue);
+            throw new NotImplementedException("Trying to put this method to Gc because of dependence to GcCodeValueAnnotationReader");
+//#if DEBUG
+//            if (!(typeof(ECODE).GetTypeInfo().IsEnum)) throw new InvalidOperationException("Expecting E to be an Enum.");
+//#endif
+//            GcCodeValueAttribute gcAnnotation = GcCodeValueAnnotationReader.GetGcCodeValueAttribute<ECODE>(field);
+//            return new EnumCodeValue<ECODE>(field, gcAnnotation.GcCode, gcAnnotation.GcValue);
         }
     }
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace ITela.Gc
+namespace ITela
 {
     /// <summary>
     /// Class to conveniently hold a collection of code values.
@@ -143,13 +143,14 @@ namespace ITela.Gc
         public static CodeValueCollection<E> BuildFrom<E>()
             where E : struct
         {
-            CodeValueCollection<E> collection = new CodeValueCollection<E>();
-            foreach (E field in Enum.GetValues(typeof(E)))
-            {
-                GcCodeValueAttribute gcAnnotation = GcCodeValueAnnotationReader.GetGcCodeValueAttribute<E>(field);
-                collection.Add(field, new CodeValue<string, string>(gcAnnotation.GcCode, gcAnnotation.GcValue));
-            }
-            return collection;
+            throw new NotImplementedException("Trying to put this method to Gc because of dependence to GcCodeValueAnnotationReader");
+            //CodeValueCollection<E> collection = new CodeValueCollection<E>();
+            //foreach (E field in Enum.GetValues(typeof(E)))
+            //{
+            //    GcCodeValueAttribute gcAnnotation = GcCodeValueAnnotationReader.GetGcCodeValueAttribute<E>(field);
+            //    collection.Add(field, new CodeValue<string, string>(gcAnnotation.GcCode, gcAnnotation.GcValue));
+            //}
+            //return collection;
         }
 
         // Build from enum is the only secure way of building it (no constraints on strings).
