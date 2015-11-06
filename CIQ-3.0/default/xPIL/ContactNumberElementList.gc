@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../utility/Crane-genericode2html.xsl"?>
+<!--
+ ...	Specification Name: OASIS CIQ V3.0
+		Description: Default Genericode File for xPIL.xsd 
+		Produced by: OASIS Customer Information Quality Technical Committee
+		URL: http://www.oasis-open.org/committees/ciq
+		Version: 3.0  
+		Status: Committee Specification CS02
+		Copyright: 2007-09, OASIS, http://www.oasis-open.org
+		Last Modified: 20 September 2008
+		Last Modified by: Ram Kumar, Chair, OASIS CIQ TC 
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ ../../../utility/genericode.xsd">
+
+	<Identification>
+		<ShortName>ContactNumberElementList</ShortName>
+		<LongName>Contact Number Element List</LongName> 
+		<Version>1.0</Version>
+		<CanonicalUri>urn:oasis:names:specification:ciq:schema:xsd:ContactNumberElementList</CanonicalUri>
+		<CanonicalVersionUri>urn:oasis:names:specification:ciq:schema:xsd:ContactNumberElementList-1.0</CanonicalVersionUri>
+		<LocationUri>http://docs.oasis-open.org/ciq/v3.0/xsd/genericode/default/gc-files/xPIL/ContactNumberElementList-1.0.gc</LocationUri>
+		<Agency>
+			<LongName>OASIS Customer Information Quality Specifications</LongName>
+			<Identifier>CIQ</Identifier>
+		</Agency>
+	</Identification>
+	
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="xsd:normalizedString"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="xsd:string"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<!-- Add the following and replace with coded values and associated names. -->
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>CountryCode</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Code to dial to a country. E.g. 1 for US, 44 for UK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>AreaCode</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Code to dial an area within a country. For example: "02" for Sydney, "03" for Melbourne</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>LocalNumber</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Local number as would be used by others within the same dialing area.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>Extension</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>An extension to the number that is usually handled by some PABX</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>Pin</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>E.g. special access code</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>Separator</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Any text that is not part of the phone number, but has some informational content, e.g. Ext. </SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>NationalNumber</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Area code with local number if one line. May include national access numbers.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>InternationalNumber</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Full international number in one line. May include international access numbers.</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

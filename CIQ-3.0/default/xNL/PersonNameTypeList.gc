@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../../../utility/Crane-genericode2html.xsl"?>
+<!--
+ ...	Specification Name: OASIS CIQ V3.0
+		Description: Default Genericode File for xNL.xsd 
+		Produced by: OASIS Customer Information Quality Technical Committee
+		URL: http://www.oasis-open.org/committees/ciq
+		Version: 3.0  
+		Status: Committee Specification CS02
+		Copyright: 2007-09, OASIS, http://www.oasis-open.org
+		Last Modified: 20 September 2008
+		Last Modified by: Ram Kumar, Chair, OASIS CIQ TC 
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ ../../../utility/genericode.xsd">
+
+	<Identification>
+		<ShortName>PersonNameTypeList</ShortName>
+		<LongName>Person Name Type List</LongName> 
+		<Version>1.0</Version>
+		<CanonicalUri>urn:oasis:names:specification:ciq:schema:xsd:PersonNameTypeList</CanonicalUri>
+		<CanonicalVersionUri>urn:oasis:names:specification:ciq:schema:xsd:PersonNameTypeList-1.0</CanonicalVersionUri>
+		<LocationUri>http://docs.oasis-open.org/ciq/v3.0/xsd/genericode/default/gc-files/xNL/PersonNameTypeList-1.0.gc</LocationUri>
+		<Agency>
+			<LongName>OASIS Customer Information Quality Specifications</LongName>
+			<Identifier>CIQ</Identifier>
+		</Agency>
+	</Identification>
+	
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="xsd:normalizedString"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="xsd:string"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	
+	<!-- Add the following and replace with coded values and associated names. -->
+	<SimpleCodeList>
+		<Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Alias</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LegalName</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KnownAs</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MaidenName</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Name of an individual before marriage.</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FormerName</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Former name of the person</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CommonUse</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Name that is commonly used by others, e.g. a simplified form of the official name.</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NameAtBirth</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>A name given to an individual at birth, but later changed (common in some cultures)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PreferredName</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Indicates that the party prefers to be called by this name</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OfficialName</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>An official name of the person, e.g. as in the passport. incorporation certificate, etc.</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UnofficialName</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NickName</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PetName</SimpleValue>
+      </Value>
+    </Row>
+	</SimpleCodeList>
+</gc:CodeList>

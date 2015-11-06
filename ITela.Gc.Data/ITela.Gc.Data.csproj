@@ -46,7 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ITela.Gc\ITela.csproj">
+    <ProjectReference Include="..\ITela\ITela.csproj">
       <Project>{b94951bc-362d-4f5c-aa4b-a9f1fc2bfc91}</Project>
       <Name>ITela</Name>
     </ProjectReference>
@@ -60,6 +60,9 @@
     </Content>
     <Content Include="..\UBL-2.1\**\*.*">
       <Link>UBL-2.1\%(RecursiveDir)%(FileName)</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\**\*.*">
+      <Link>CIQ-3.0\%(RecursiveDir)%(FileName)</Link>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
