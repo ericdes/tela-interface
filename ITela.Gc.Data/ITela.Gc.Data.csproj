@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="GcData\Country.cs" />
     <Compile Include="GcData\PackagingType.cs" />
+    <Compile Include="GC_DIRECTORY_STRUCTURE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,8 +62,392 @@
     <Content Include="..\UBL-2.1\**\*.*">
       <Link>UBL-2.1\%(RecursiveDir)%(FileName)</Link>
     </Content>
-    <Content Include="..\CIQ-3.0\**\*.*">
-      <Link>CIQ-3.0\%(RecursiveDir)%(FileName)</Link>
+    <Content Include="..\CIQ-3.0\customised\xAL\AddPremisesTypeList.gc">
+      <Link>CIQ-3.0\customised\xAL\AddPremisesTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xAL\LimitAdministrativeAreaTypeList.gc">
+      <Link>CIQ-3.0\customised\xAL\LimitAdministrativeAreaTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xAL\LimitLocalityTypeList.gc">
+      <Link>CIQ-3.0\customised\xAL\LimitLocalityTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xNAL\AddDependencyTypeList.gc">
+      <Link>CIQ-3.0\customised\xNAL\AddDependencyTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xNL\AddPersonNameElementList.gc">
+      <Link>CIQ-3.0\customised\xNL\AddPersonNameElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xNL\LimitPersonNameElementList.gc">
+      <Link>CIQ-3.0\customised\xNL\LimitPersonNameElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xPIL\AddContactNumberElementList.gc">
+      <Link>CIQ-3.0\customised\xPIL\AddContactNumberElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xPIL\LimitElectronicAddressIdentifierTypeList.gc">
+      <Link>CIQ-3.0\customised\xPIL\LimitElectronicAddressIdentifierTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xPRL\AddRelationshipTypeList.gc">
+      <Link>CIQ-3.0\customised\xPRL\AddRelationshipTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\customised\xPRL\LimitRelationshipRelativityWithOtherPartyList.gc">
+      <Link>CIQ-3.0\customised\xPRL\LimitRelationshipRelativityWithOtherPartyList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\common\DataQualityTypeList.gc">
+      <Link>CIQ-3.0\default\common\DataQualityTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\common\StatusList.gc">
+      <Link>CIQ-3.0\default\common\StatusList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\AddressIDTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\AddressIDTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\AddressLineTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\AddressLineTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\AddressTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\AddressTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\AddressUsageList.gc">
+      <Link>CIQ-3.0\default\xAL\AddressUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\AdministrativeAreaNameCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\AdministrativeAreaNameCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\AdministrativeAreaNameTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\AdministrativeAreaNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\AdministrativeAreaTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\AdministrativeAreaTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\CountryNameCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\CountryNameCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\CountryNameTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\CountryNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\DatumCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\DatumCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\DeliveryModeList.gc">
+      <Link>CIQ-3.0\default\xAL\DeliveryModeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\DirectionTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\DirectionTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\IdentifierElementTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\IdentifierElementTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\LocalityNameCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\LocalityNameCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\LocalityNameTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\LocalityNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\LocalityTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\LocalityTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\MeridianCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\MeridianCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\PostalDeliveryPointTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\PostalDeliveryPointTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\PostOfficeTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\PostOfficeTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\PremisesElementTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\PremisesElementTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\PremisesTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\PremisesTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\ProjectionCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\ProjectionCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\RuralDeliveryTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\RuralDeliveryTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\SubAdministrativeAreaNameCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\SubAdministrativeAreaNameCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\SubAdministrativeAreaNameTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\SubAdministrativeAreaNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\SubAdministrativeAreaTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\SubAdministrativeAreaTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\SubLocalityNameCodeList.gc">
+      <Link>CIQ-3.0\default\xAL\SubLocalityNameCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\SubLocalityNameTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\SubLocalityNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\SubLocalityTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\SubLocalityTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\SubPremisesTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\SubPremisesTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\ThoroughfareNameTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\ThoroughfareNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xAL\ThoroughfareTypeList.gc">
+      <Link>CIQ-3.0\default\xAL\ThoroughfareTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNAL\DependencyTypeList.gc">
+      <Link>CIQ-3.0\default\xNAL\DependencyTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNAL\RecordIDTypeList.gc">
+      <Link>CIQ-3.0\default\xNAL\RecordIDTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\JointNameConnectorList.gc">
+      <Link>CIQ-3.0\default\xNL\JointNameConnectorList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\NameLineTypeList.gc">
+      <Link>CIQ-3.0\default\xNL\NameLineTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\OrganisationIDTypeList.gc">
+      <Link>CIQ-3.0\default\xNL\OrganisationIDTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\OrganisationNameElementList.gc">
+      <Link>CIQ-3.0\default\xNL\OrganisationNameElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\OrganisationNameTypeList.gc">
+      <Link>CIQ-3.0\default\xNL\OrganisationNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\OrganisationNameUsageList.gc">
+      <Link>CIQ-3.0\default\xNL\OrganisationNameUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\PartyNameIDTypeList.gc">
+      <Link>CIQ-3.0\default\xNL\PartyNameIDTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\PartyNameUsageList.gc">
+      <Link>CIQ-3.0\default\xNL\PartyNameUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\PersonIDTypeList.gc">
+      <Link>CIQ-3.0\default\xNL\PersonIDTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\PersonNameElementList.gc">
+      <Link>CIQ-3.0\default\xNL\PersonNameElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\PersonNameTypeList.gc">
+      <Link>CIQ-3.0\default\xNL\PersonNameTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\PersonNameUsageList.gc">
+      <Link>CIQ-3.0\default\xNL\PersonNameUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xNL\SubDivisionTypeList.gc">
+      <Link>CIQ-3.0\default\xNL\SubDivisionTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\AccountElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\AccountElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\AccountOwnershipTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\AccountOwnershipTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\AccountTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\AccountTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\BirthInfoElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\BirthInfoElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\BloodGroupList.gc">
+      <Link>CIQ-3.0\default\xPIL\BloodGroupList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\BodyMarkPartList.gc">
+      <Link>CIQ-3.0\default\xPIL\BodyMarkPartList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\BodyMarkPartLocationList.gc">
+      <Link>CIQ-3.0\default\xPIL\BodyMarkPartLocationList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\CommunicationMediaTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\CommunicationMediaTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\ContactNumberElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\ContactNumberElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\ContactNumberUsageList.gc">
+      <Link>CIQ-3.0\default\xPIL\ContactNumberUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\DisabilityCauseList.gc">
+      <Link>CIQ-3.0\default\xPIL\DisabilityCauseList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\DocumentElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\DocumentElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\DocumentTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\DocumentTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\ElectronicAddressIdentifierTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\ElectronicAddressIdentifierTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\ElectronicAddressIdentifierUsageList.gc">
+      <Link>CIQ-3.0\default\xPIL\ElectronicAddressIdentifierUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\EventTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\EventTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\FeatureTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\FeatureTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\FreeTextLineTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\FreeTextLineTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\GenderList.gc">
+      <Link>CIQ-3.0\default\xPIL\GenderList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\HabitTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\HabitTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\HobbyTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\HobbyTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\IndustryCodeList.gc">
+      <Link>CIQ-3.0\default\xPIL\IndustryCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\IndustryTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\IndustryTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\LanguagePreferenceList.gc">
+      <Link>CIQ-3.0\default\xPIL\LanguagePreferenceList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\LanguageSkillsList.gc">
+      <Link>CIQ-3.0\default\xPIL\LanguageSkillsList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\LanguageTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\LanguageTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\MaritalStatusList.gc">
+      <Link>CIQ-3.0\default\xPIL\MaritalStatusList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\MembershipElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\MembershipElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\MembershipTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\MembershipTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\NationalityTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\NationalityTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\NumberTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\NumberTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\OccupationElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\OccupationElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\OrganisationCategoryTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\OrganisationCategoryTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\OrganisationDetailsUsageList.gc">
+      <Link>CIQ-3.0\default\xPIL\OrganisationDetailsUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\OrganisationInfoNatureList.gc">
+      <Link>CIQ-3.0\default\xPIL\OrganisationInfoNatureList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\OrganisationInfoTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\OrganisationInfoTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\OrganisationRelationshipTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\OrganisationRelationshipTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PartyIdentifierElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\PartyIdentifierElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PartyIdentifierTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PartyIdentifierTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PartyIDTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PartyIDTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PartyTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PartyTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PartyUsageList.gc">
+      <Link>CIQ-3.0\default\xPIL\PartyUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PersonCategoryTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PersonCategoryTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PersonDetailsUsageList.gc">
+      <Link>CIQ-3.0\default\xPIL\PersonDetailsUsageList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PersonEthnicityList.gc">
+      <Link>CIQ-3.0\default\xPIL\PersonEthnicityList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PersonFavouriteTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PersonFavouriteTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PersonRelationshipTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PersonRelationshipTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PhysicalInfoFreeTextTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PhysicalInfoFreeTextTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PhysicalStatusList.gc">
+      <Link>CIQ-3.0\default\xPIL\PhysicalStatusList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\PreferenceTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\PreferenceTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\QualificationElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\QualificationElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\ReligionList.gc">
+      <Link>CIQ-3.0\default\xPIL\ReligionList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\ResidencyTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\ResidencyTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\RevenueCurrencyCodeList.gc">
+      <Link>CIQ-3.0\default\xPIL\RevenueCurrencyCodeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\RevenueSourceList.gc">
+      <Link>CIQ-3.0\default\xPIL\RevenueSourceList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\RevenueTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\RevenueTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\UnitTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\UnitTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\VehicleInfoElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\VehicleInfoElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\VehicleTypeList.gc">
+      <Link>CIQ-3.0\default\xPIL\VehicleTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPIL\VisaElementList.gc">
+      <Link>CIQ-3.0\default\xPIL\VisaElementList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\OtherPartyRelationshipRoleList.gc">
+      <Link>CIQ-3.0\default\xPRL\OtherPartyRelationshipRoleList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipCategoryList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipCategoryList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipEndReasonList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipEndReasonList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipIDTypeList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipIDTypeList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipPriorityList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipPriorityList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipRelativityWithOtherPartyList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipRelativityWithOtherPartyList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipRoleList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipRoleList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipStartReasonList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipStartReasonList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipStatusList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipStatusList</Link>
+    </Content>
+    <Content Include="..\CIQ-3.0\default\xPRL\RelationshipTypeList.gc">
+      <Link>CIQ-3.0\default\xPRL\RelationshipTypeList</Link>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
