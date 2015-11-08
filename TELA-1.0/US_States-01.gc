@@ -7,7 +7,7 @@
     <LongName xml:lang="en">US States</LongName>
     <LongName Identifier="listID">ISO 3166-2 US</LongName>
     <CanonicalVersionUri>tela-web:codelist:iso:3166-2:us:01</CanonicalVersionUri>
-    <LocationUri>http://gc.tela-web.com/US_States-01.gc</LocationUri>
+    <LocationUri>https://raw.githubusercontent.com/ericdes/tela-interface/master/TELA-1.0/US_States-01.gc</LocationUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">

@@ -6,7 +6,7 @@
       <Version>UN D.05A</Version>
       <CanonicalUri>urn:un:unece:uncefact:codelist:specification:63453</CanonicalUri>
       <CanonicalVersionUri>urn:un:unece:uncefact:codelist:specification:63453:2005-update</CanonicalVersionUri>
-      <LocationUri>http://docs.oasis-open.org/ubl/os-UBL-2.0-update/cl/gc/cefact/Language-2.0.gc</LocationUri>
+      <LocationUri>https://raw.githubusercontent.com/ericdes/tela-interface/master/TELA-1.0/LanguageCode-2.0.gc</LocationUri>
       <Agency>
          <LongName xml:lang="en">United Nations Economic Commission for Europe</LongName>
          <Identifier>6</Identifier>

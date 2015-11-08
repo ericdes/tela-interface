@@ -7,7 +7,7 @@
     <LongName xml:lang="en">MX States</LongName>
     <LongName Identifier="listID">ISO 3166-2 MX</LongName>
     <CanonicalVersionUri>tela-web:codelist:iso:3166-2:mx:01</CanonicalVersionUri>
-    <LocationUri>http://gc.tela-web.com/MX_States-01.gc</LocationUri>
+    <LocationUri>https://raw.githubusercontent.com/ericdes/tela-interface/master/TELA-1.0/MX_States-01.gc</LocationUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">

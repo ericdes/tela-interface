@@ -7,7 +7,7 @@
     <LongName xml:lang="en">CA Provinces</LongName>
     <LongName Identifier="listID">ISO 3166-2 CA</LongName>
     <CanonicalVersionUri>tela-web:codelist:iso:3166-2:ca:01</CanonicalVersionUri>
-    <LocationUri>http://gc.tela-web.com/CA_Provinces-01.gc</LocationUri>
+    <LocationUri>https://raw.githubusercontent.com/ericdes/tela-interface/master/TELA-1.0/CA_Provinces-01.gc</LocationUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">

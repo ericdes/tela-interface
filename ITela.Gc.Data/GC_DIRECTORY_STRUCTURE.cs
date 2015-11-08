@@ -8,6 +8,11 @@ namespace ITela.Gc.Data
 {
     public static class GC_DIRECTORY_STRUCTURE
     {
+        public static IList<string> TELA10 = new List<string>
+        {
+                @"TELA-1.0\",
+        };
+
         public static IList<string> UBL21 = new List<string>
         {
                 @"UBL-2.1\default\",
