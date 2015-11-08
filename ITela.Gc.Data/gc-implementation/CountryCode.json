@@ -6,7 +6,7 @@
     "Name": "CountryCode",
     "Version": "01",
     "Information": {
-      "LocationUri": "https://raw.githubusercontent.com/ericdes/tela-interface/master/gc/CountryCode-01.gc",
+      "LocationUri": "https://raw.githubusercontent.com/ericdes/tela-interface/master/TELA-1.0/CountryCode-01.gc",
       "IsRestriction": false,
       "Filename": "CountryCode-01.gc",
       "TypeId": "Tela.Erp.Interfaces.Annotations.GcMetadataAttribute, Tela.Erp.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"

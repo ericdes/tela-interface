@@ -35,10 +35,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="gc-implementation\ArchivedRecordStatusCode.json" />
     <None Include="project.json" />
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GcEnums\ArchivedRecordStatus.cs" />
     <Compile Include="Gc\Annotations\GcCodeValue.cs" />
     <Compile Include="Gc\Annotations\GcCodeValueParser.cs" />
     <Compile Include="Gc\Annotations\GcField.cs" />
