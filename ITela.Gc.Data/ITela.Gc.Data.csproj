@@ -53,8 +53,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\gc\*.*">
-      <Link>gc\%(RecursiveDir)%(FileName)</Link>
+    <Content Include="..\TELA-1.0\*.*">
+      <Link>TELA-1.0\%(RecursiveDir)%(FileName)</Link>
     </Content>
     <Content Include="..\UBL-2.0\**\*.*">
       <Link>UBL-2.0\%(RecursiveDir)%(FileName)</Link>
@@ -450,6 +450,7 @@
       <Link>CIQ-3.0\default\xPRL\RelationshipTypeList</Link>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
