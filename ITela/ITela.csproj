@@ -35,33 +35,36 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="gc-implementation\ArchivedRecordStatusCode.json" />
     <None Include="project.json" />
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GcEnums\ArchivedRecordStatus.cs" />
+    <Compile Include="Collections\CodeValue.cs" />
+    <Compile Include="GcDataRecords\CountryRecord.cs" />
+    <Compile Include="GcDataRecords\PackagingTypeRecord.cs" />
+    <Compile Include="GcDataRecords\TransportationStatusRecord.cs" />
     <Compile Include="Gc\Annotations\GcCodeValue.cs" />
-    <Compile Include="Gc\Annotations\GcCodeValueParser.cs" />
-    <Compile Include="Gc\Annotations\GcField.cs" />
+    <Compile Include="Gc\Annotations\Helpers\GcCodeValueParser.cs" />
+    <Compile Include="Gc\Annotations\GcEnumField.cs" />
     <Compile Include="Gc\Annotations\GcFieldValue.cs" />
     <Compile Include="Gc\Annotations\GcMetadata.cs" />
     <Compile Include="Annotations\Helpers\AnnotationReader.cs" />
     <Compile Include="Annotations\Helpers\AttributeUsageAnnotationReader.cs" />
-    <Compile Include="Gc\Annotations\Helpers\GcCodeValueAnnotationReader.cs" />
     <Compile Include="Collections\CodeValueCollection.cs" />
     <Compile Include="Collections\ICodeValueCollection.cs" />
     <Compile Include="Gc\IGcCodeValueCollection.cs" />
-    <Compile Include="Gc\IGcMetadata.cs" />
     <Compile Include="Datatypes\CodeValue.cs" />
     <Compile Include="Datatypes\EnumCodeValue.cs" />
     <Compile Include="Datatypes\ICodeValue.cs" />
     <Compile Include="Datatypes\IStringValueType.cs" />
     <Compile Include="Gc\GcEnumPart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Records\IRecordKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enums\" />
+    <Folder Include="gc-implementation\" />
+    <Folder Include="GcEnums\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

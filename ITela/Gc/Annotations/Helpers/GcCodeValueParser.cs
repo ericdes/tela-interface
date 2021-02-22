@@ -34,7 +34,7 @@ namespace ITela.Gc
             if (attribute == null) throw new ArgumentException(string.Format("Enum field '{0}' must be decorated with attribute 'GcCodeValue'.", e.ToString()));
             return attributes.FirstOrDefault();
         }
-        
+
         internal static GcCodeValueAttribute GetGcCodeValueAttribute(Enum e)
         {
             Type t = e.GetType();

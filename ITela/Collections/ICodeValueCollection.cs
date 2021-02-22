@@ -17,6 +17,10 @@ namespace ITela
 
     public interface ICodeValueCollection : ICodeValueCollection<string, string>
     {
+    }
 
+    public interface ICodeValueCollectionable
+    {
+        CodeValueCollection ToCodeValueCollection();
     }
 }

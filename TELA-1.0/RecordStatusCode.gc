@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>ArchivedRecordStatusCode</ShortName>
-      <LongName>Status Code of an Archived Record</LongName>
+      <ShortName>RecordStatusCode</ShortName>
+      <LongName>Status Code of a Record</LongName>
       <Version>1.0</Version>
-      <LocationUri>https://raw.githubusercontent.com/ericdes/tela-interface/master/TELA-1.0/ArchivedRecordStatusCode.gc</LocationUri>
+      <LocationUri>https://raw.githubusercontent.com/ericdes/tela-interface/master/TELA-1.0/RecordStatusCode.gc</LocationUri>
       <Agency>
          <LongName xml:lang="en">Tela Framework</LongName>
          <Identifier>TELA</Identifier>

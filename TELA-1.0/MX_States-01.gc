@@ -14,6 +14,10 @@
       <Data Type="string" />
       <ShortName>Code</ShortName>
     </Column>
+    <Column Id="Short" Use="required">
+      <Data Type="string" />
+      <ShortName>Short code</ShortName>
+    </Column>
     <Column Id="Name" Use="required">
       <Data Type="string" Lang="es" />
       <ShortName>Name</ShortName>
@@ -28,6 +32,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-DIF</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>DIF</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Distrito Federal</SimpleValue>
       </Value>
@@ -35,6 +42,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-AGU</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>AGU</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Aguascalientes</SimpleValue>
@@ -44,6 +54,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-BCN</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>BCN</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Baja California</SimpleValue>
       </Value>
@@ -51,6 +64,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-BCS</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>BCS</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Baja California Sur</SimpleValue>
@@ -60,6 +76,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-CAM</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>CAM</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Campeche</SimpleValue>
       </Value>
@@ -67,6 +86,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-COA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>COA</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Coahuila</SimpleValue>
@@ -76,6 +98,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-COL</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>COL</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Colima</SimpleValue>
       </Value>
@@ -83,6 +108,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-CHP</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>CHP</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Chiapas</SimpleValue>
@@ -92,6 +120,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-CHH</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>CHH</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Chihuahua</SimpleValue>
       </Value>
@@ -99,6 +130,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-DUR</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>DUR</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Durango</SimpleValue>
@@ -108,6 +142,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-GUA</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>GUA</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Guanajuato</SimpleValue>
       </Value>
@@ -115,6 +152,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-GRO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>GRO</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Guerrero</SimpleValue>
@@ -124,6 +164,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-HID</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>HID</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Hidalgo</SimpleValue>
       </Value>
@@ -131,6 +174,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-JAL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>JAL</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Jalisco</SimpleValue>
@@ -140,6 +186,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-MEX</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MEX</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>México</SimpleValue>
       </Value>
@@ -147,6 +196,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-MIC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MIC</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Michoacán</SimpleValue>
@@ -156,6 +208,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-MOR</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MOR</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Morelos</SimpleValue>
       </Value>
@@ -163,6 +218,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-NAY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NAY</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Nayarit</SimpleValue>
@@ -172,6 +230,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-NLE</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NLE</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Nuevo León</SimpleValue>
       </Value>
@@ -179,6 +240,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-OAX</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>OAX</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Oaxaca</SimpleValue>
@@ -188,6 +252,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-PUE</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>PUE</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Puebla</SimpleValue>
       </Value>
@@ -195,6 +262,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-QUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>QUE</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Querétaro</SimpleValue>
@@ -204,6 +274,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-ROO</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>ROO</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Quintana Roo</SimpleValue>
       </Value>
@@ -211,6 +284,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-SLP</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>SLP</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>San Luis Potosí</SimpleValue>
@@ -220,6 +296,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-SIN</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>SIN</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Sinaloa</SimpleValue>
       </Value>
@@ -227,6 +306,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-SON</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>SON</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Sonora</SimpleValue>
@@ -236,6 +318,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-TAB</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>TAB</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Tabasco</SimpleValue>
       </Value>
@@ -243,6 +328,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-TAM</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>TAM</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Tamaulipas</SimpleValue>
@@ -252,6 +340,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-TLA</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>TLA</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Tlaxcala</SimpleValue>
       </Value>
@@ -259,6 +350,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-VER</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>VER</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Veracruz</SimpleValue>
@@ -268,6 +362,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>MX-YUC</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>YUC</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Yucatán</SimpleValue>
       </Value>
@@ -275,6 +372,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>MX-ZAC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>ZAC</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Zacatecas</SimpleValue>

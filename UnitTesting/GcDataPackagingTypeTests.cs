@@ -3,7 +3,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
 using ITela.Gc;
-using ITela.Gc.Data;
 
 namespace UnitTesting
 {
@@ -27,7 +26,7 @@ namespace UnitTesting
         [TestMethod]
         public void GetCodesContainText()
         {
-            var codes = PackagingType.GetCodesLike("Drum", x => x.VALUE, false);
+            var codes = PackagingType.GetCodesLike("Drum", x => x.Value, false);
             Assert.IsTrue(codes.Count() == 1);
             Assert.IsTrue(codes.First() == "DR");
         }

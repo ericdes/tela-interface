@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ITela.Gc
+namespace Tela.Core.Gc
 {
     /// <summary>
     /// Represents a field value in a genericode file.

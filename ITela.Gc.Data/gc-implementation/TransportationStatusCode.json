@@ -1,0 +1,85 @@
+{
+  "Metadata": {
+    "$type": "Tela.Core.Gc.GcMetadata, Tela.Core.Gc",
+    "GenericodeVersion": "1.0",
+    "Code": "gc",
+    "Name": "TransportationStatusCode",
+    "Version": "4",
+    "Information": {
+      "LocationUri": "http://docs.oasis-open.org/ubl/os-UBL-2.1/cl/gc/special-purpose/TransportationStatusCode-2.1.gc",
+      "IsRestriction": false,
+      "Filename": "TransportationStatusCode-2.1.gc",
+      "TypeId": "ITela.Gc.GcMetadataAttribute, ITela, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  },
+  "EnumName": "TransportationStatus",
+  "JsonFilename": null,
+  "Namespace": "ITela.Gc",
+  "CodeField": "code",
+  "ValueField": "name",
+  "EnumFieldList": {},
+  "GcFieldsAnalyzed": {
+    "code": {
+      "$type": "Tela.Core.Gc.GcFieldDataSummary, Tela.Core.Gc",
+      "ColumnRef": "code",
+      "MinLength": 1,
+      "MaxLength": 3,
+      "AreNumeric": true,
+      "AreIntegers": true,
+      "EmptyRowsCount": 0,
+      "Weight": 905
+    },
+    "name": {
+      "$type": "Tela.Core.Gc.GcFieldDataSummary, Tela.Core.Gc",
+      "ColumnRef": "name",
+      "MinLength": 4,
+      "MaxLength": 64,
+      "AreNumeric": false,
+      "AreIntegers": false,
+      "EmptyRowsCount": 0,
+      "Weight": 8725
+    },
+    "description": {
+      "$type": "Tela.Core.Gc.GcFieldDataSummary, Tela.Core.Gc",
+      "ColumnRef": "description",
+      "MinLength": 18,
+      "MaxLength": 123,
+      "AreNumeric": false,
+      "AreIntegers": false,
+      "EmptyRowsCount": 2,
+      "Weight": 20314
+    }
+  },
+  "FieldsImplemented": {
+    "code": {
+      "GcColumnRef": "code",
+      "DataType": "string",
+      "Min": 0,
+      "Max": 3,
+      "EnumPosition": [
+        "Code"
+      ],
+      "TypeId": "ITela.Gc.GcEnumFieldAttribute, ITela, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "name": {
+      "GcColumnRef": "name",
+      "DataType": "string",
+      "Min": 0,
+      "Max": 100,
+      "EnumPosition": [
+        "Value"
+      ],
+      "TypeId": "ITela.Gc.GcEnumFieldAttribute, ITela, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "description": {
+      "GcColumnRef": "description",
+      "DataType": "string",
+      "Min": 0,
+      "Max": 250,
+      "EnumPosition": [
+        "Comments"
+      ],
+      "TypeId": "ITela.Gc.GcEnumFieldAttribute, ITela, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

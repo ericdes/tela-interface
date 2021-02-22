@@ -14,6 +14,10 @@
       <Data Type="string" />
       <ShortName>Code</ShortName>
     </Column>
+    <Column Id="Short" Use="required">
+      <Data Type="string" />
+      <ShortName>Short code</ShortName>
+    </Column>
     <Column Id="Name" Use="required">
       <Data Type="string" Lang="en" />
       <ShortName>Name</ShortName>
@@ -28,6 +32,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-AL</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>AL</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Alabama</SimpleValue>
       </Value>
@@ -35,6 +42,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-AK</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>AK</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Alaska</SimpleValue>
@@ -44,6 +54,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-AZ</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>AZ</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Arizona</SimpleValue>
       </Value>
@@ -51,6 +64,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-AR</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>AR</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Arkansas</SimpleValue>
@@ -60,6 +76,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-CA</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>CA</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>California</SimpleValue>
       </Value>
@@ -67,6 +86,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-CO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>CO</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Colorado</SimpleValue>
@@ -76,6 +98,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-CT</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>CT</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Connecticut</SimpleValue>
       </Value>
@@ -83,6 +108,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-DE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>DE</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Delaware</SimpleValue>
@@ -92,6 +120,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-DC</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>DC</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>District of Columbia</SimpleValue>
       </Value>
@@ -99,6 +130,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-FL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>FL</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Florida</SimpleValue>
@@ -108,6 +142,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-GA</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>GA</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Georgia</SimpleValue>
       </Value>
@@ -115,6 +152,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-HI</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>HI</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Hawaii</SimpleValue>
@@ -124,6 +164,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-ID</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>ID</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Idaho</SimpleValue>
       </Value>
@@ -131,6 +174,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-IL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>IL</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Illinois</SimpleValue>
@@ -140,6 +186,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-IN</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>IN</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Indiana</SimpleValue>
       </Value>
@@ -147,6 +196,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-IA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>IA</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Iowa</SimpleValue>
@@ -156,6 +208,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-KS</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>KS</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Kansa</SimpleValue>
       </Value>
@@ -163,6 +218,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-KY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>KY</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Kentucky</SimpleValue>
@@ -172,6 +230,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-LA</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>LA</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Lousiana</SimpleValue>
       </Value>
@@ -179,6 +240,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-ME</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>ME</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Maine</SimpleValue>
@@ -188,6 +252,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-MD</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MD</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Maryland</SimpleValue>
       </Value>
@@ -195,6 +262,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-MA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MA</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Massachusetts</SimpleValue>
@@ -204,6 +274,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-MI</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MI</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Michigan</SimpleValue>
       </Value>
@@ -211,6 +284,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-MN</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MN</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Minnesota</SimpleValue>
@@ -220,6 +296,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-MS</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MS</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Mississippi</SimpleValue>
       </Value>
@@ -227,6 +306,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-MO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MO</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Missouri</SimpleValue>
@@ -236,6 +318,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-MT</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MT</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Montana</SimpleValue>
       </Value>
@@ -243,6 +328,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-NE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NE</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Nebraska</SimpleValue>
@@ -252,6 +340,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-NV</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NV</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Nevada</SimpleValue>
       </Value>
@@ -259,6 +350,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-NH</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NH</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>New Hampshire</SimpleValue>
@@ -268,6 +362,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-NJ</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NJ</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>New Jersey</SimpleValue>
       </Value>
@@ -275,6 +372,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-NM</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NM</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>New Mexico</SimpleValue>
@@ -284,6 +384,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-NY</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NY</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>New York</SimpleValue>
       </Value>
@@ -291,6 +394,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-NC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NC</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>North Carolina</SimpleValue>
@@ -300,6 +406,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-ND</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>ND</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>North Dakota</SimpleValue>
       </Value>
@@ -307,6 +416,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-OH</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>OH</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Ohio</SimpleValue>
@@ -316,6 +428,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-OK</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>OK</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Oklahoma</SimpleValue>
       </Value>
@@ -323,6 +438,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-OR</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>OR</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Oregon</SimpleValue>
@@ -332,6 +450,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-PA</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>PA</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Pennsylvania</SimpleValue>
       </Value>
@@ -339,6 +460,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-RI</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>RI</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Rhode Island</SimpleValue>
@@ -348,6 +472,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-SC</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>SC</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>South Carolina</SimpleValue>
       </Value>
@@ -355,6 +482,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-SD</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>SD</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>South Dakota</SimpleValue>
@@ -364,6 +494,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-TN</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>TN</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Tennessee</SimpleValue>
       </Value>
@@ -371,6 +504,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-TX</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>TX</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Texas</SimpleValue>
@@ -380,6 +516,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-UT</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>UT</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Utah</SimpleValue>
       </Value>
@@ -387,6 +526,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-VT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>VT</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Vermont</SimpleValue>
@@ -396,6 +538,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-VA</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>VA</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Virginia</SimpleValue>
       </Value>
@@ -403,6 +548,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-WA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>WA</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Washington</SimpleValue>
@@ -412,6 +560,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-WV</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>WV</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>West Virginia</SimpleValue>
       </Value>
@@ -420,6 +571,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>US-WI</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>WI</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Wisconsin</SimpleValue>
       </Value>
@@ -427,6 +581,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>US-WY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>WY</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Wyoming</SimpleValue>

@@ -14,6 +14,10 @@
       <Data Type="string" />
       <ShortName>Code</ShortName>
     </Column>
+    <Column Id="Short" Use="required">
+      <Data Type="string" />
+      <ShortName>Short code</ShortName>
+    </Column>
     <Column Id="Name" Use="required">
       <Data Type="string" Lang="en" />
       <ShortName>Name</ShortName>
@@ -28,6 +32,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>CA-AB</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>AB</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Alberta</SimpleValue>
       </Value>
@@ -35,6 +42,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>CA-BC</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>BC</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>British Columbia</SimpleValue>
@@ -44,6 +54,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>CA-MB</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>MB</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Manitoba</SimpleValue>
       </Value>
@@ -51,6 +64,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>CA-NB</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NB</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>New Brunswick</SimpleValue>
@@ -60,6 +76,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>CA-NL</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NL</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Newfoundland and Labrador</SimpleValue>
       </Value>
@@ -67,6 +86,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>CA-NS</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NS</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Nova Scotia</SimpleValue>
@@ -76,6 +98,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>CA-ON</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>ON</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Ontario</SimpleValue>
       </Value>
@@ -83,6 +108,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>CA-PE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>PE</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Prince Edward Island</SimpleValue>
@@ -92,6 +120,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>CA-QC</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>QC</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Quebec</SimpleValue>
       </Value>
@@ -99,6 +130,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>CA-SK</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>SK</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Saskatchewan</SimpleValue>
@@ -108,6 +142,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>CA-NT</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NT</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Northwest Territories</SimpleValue>
       </Value>
@@ -116,6 +153,9 @@
       <Value ColumnRef="Code">
         <SimpleValue>CA-NU</SimpleValue>
       </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>NU</SimpleValue>
+      </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Nunavut</SimpleValue>
       </Value>
@@ -123,6 +163,9 @@
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>CA-YT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Short">
+        <SimpleValue>YT</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Yukon</SimpleValue>
