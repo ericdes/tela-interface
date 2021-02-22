@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d521f63e-1b31-43a5-9310-a69355766283</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ITela</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Annotations\Helpers\AnnotationReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Annotations\Helpers\AttributeUsageAnnotationReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collections\CodeValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collections\CodeValueCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collections\ICodeValueCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Datatypes\CodeValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Datatypes\EnumCodeValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Datatypes\ICodeValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Datatypes\IStringValueType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GcDataRecords\CountryRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GcDataRecords\PackagingTypeRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GcDataRecords\TransportationStatusRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gc\Annotations\GcCodeValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gc\Annotations\GcEnumField.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gc\Annotations\GcFieldValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gc\Annotations\GcMetadata.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gc\Annotations\Helpers\GcCodeValueParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gc\GcEnumPart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gc\IGcCodeValueCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Records\IRecordKey.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)bin\Debug\ITela.dll" />
+    <None Include="$(MSBuildThisFileDirectory)bin\Debug\ITela.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)bin\Release\ITela.dll" />
+    <None Include="$(MSBuildThisFileDirectory)bin\Release\ITela.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Enums\" />
+    <Folder Include="$(MSBuildThisFileDirectory)gc-implementation\" />
+    <Folder Include="$(MSBuildThisFileDirectory)GcEnums\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6d68f636-1336-4836-a47c-b517c49d3d99</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ITela.Gc.Data</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)gc-implementation\CountryCode.json" />
+    <Content Include="$(MSBuildThisFileDirectory)gc-implementation\PackagingTypeCode.json" />
+    <Content Include="$(MSBuildThisFileDirectory)gc-implementation\TransportationStatusCode.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GcData\Country.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GcData\PackagingType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GcData\TransportationStatus.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\customised\xAL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\customised\xNAL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\customised\xNL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\customised\xPIL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\customised\xPRL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\default\common\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\default\xAL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\default\xNAL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\default\xNL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\default\xPIL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)CIQ-3.0\default\xPRL\" />
+    <Folder Include="$(MSBuildThisFileDirectory)TELA-1.0\" />
+    <Folder Include="$(MSBuildThisFileDirectory)UBL-2.0\cefact\" />
+    <Folder Include="$(MSBuildThisFileDirectory)UBL-2.0\default\" />
+    <Folder Include="$(MSBuildThisFileDirectory)UBL-2.0\special-purpose\" />
+    <Folder Include="$(MSBuildThisFileDirectory)UBL-2.1\default\" />
+    <Folder Include="$(MSBuildThisFileDirectory)UBL-2.1\special-purpose\" />
+  </ItemGroup>
+</Project>
